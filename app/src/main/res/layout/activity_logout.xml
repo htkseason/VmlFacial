@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/logout_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Welcome..."
+            android:textColor="#0763B0"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/logout_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/logout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="58dp"
+            android:text="Message here..."
+            android:textColor="#888888"
+            android:textSize="20sp"
+             />
+
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#0763B0"
+            android:text=" Logout "
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginBottom="105dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

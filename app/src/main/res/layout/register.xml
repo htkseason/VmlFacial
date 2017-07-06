@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <RelativeLayout
+        android:layout_width="230dp"
+        android:layout_height="320dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/login_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Register"
+            android:textColor="#0763B0"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textColor="#636363"
+            android:textSize="18sp"
+            android:layout_marginTop="34dp"
+            android:layout_below="@+id/login_title"
+            android:layout_alignParentStart="true" />
+        <EditText
+            android:id="@+id/runame"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="9dp"
+            android:layout_below="@+id/username"
+            android:layout_alignParentStart="true"
+            android:selectAllOnFocus="true"/>
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textColor="#636363"
+            android:textSize="18sp"
+            android:layout_marginTop="9dp"
+            android:layout_below="@+id/runame"
+            android:layout_alignParentStart="true" />
+        <EditText
+            android:id="@+id/rpsw"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="9dp"
+            android:layout_below="@+id/password"
+            android:layout_alignParentStart="true"
+            android:password="true"
+            android:selectAllOnFocus="true" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#0763B0"
+            android:text="Submit"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_below="@+id/rpsw"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="25dp" />
+    </RelativeLayout>
+    <Button
+        android:id="@+id/return_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:text="Return Login"
+        android:textColor="#2F8AD6"
+        android:textSize="16sp"
+        android:layout_marginRight="6dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
