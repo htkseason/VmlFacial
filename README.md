@@ -5,5 +5,4 @@ Mainly based on [VisionModelLib](https://github.com/htkseason/VisionModelLib) an
 ---
 
 ### Demo
-<img src="https://github.com/htkseason/VmlFacial/blob/master/demos/demo1.jpg" width="75%"/>
-<img src="https://github.com/htkseason/VmlFacial/blob/master/demos/demo2.jpg" width="75%"/>
+<img src="https://github.com/htkseason/VmlFacial/blob/master/demos/demo1.jpg" width="50%"/><img src="https://github.com/htkseason/VmlFacial/blob/master/demos/demo2.jpg" width="50%"/>
